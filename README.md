@@ -1,0 +1,24 @@
+ - date of  submission 1 oct 2023
+ - instruction tu run this project
+	 - using docker
+		 - `docker-compose up --build --no-recreate -d`
+		 - `docker-compose ps`
+		 - `docker exec -it api sh`
+		 - `npm i`
+		 - `npm run dev`
+		 - backend will running in port 3000 and mongodb in port 27017
+ - how much time that i use to build this project 16 hours
+ - Assumptions made
+ - Shortcuts/Compromises made ? yes i did, like create schema and query and validatiation data input 
+ - Assume your application will go into production...
+	 - What would be your approach to ensuring the application is ready for production
+		(testing)? security and peformance
+	
+	 - How would you ensure a smooth user experience as 1000’s of users start using your app simultaneously?  doing stress test and performance test
+	 - What key steps would you take to ensure application security? in real world i will check the sql injection if we use sql and pick secure cloud server.
+	 - What did you not include in your solution that you want us to know about ? Were you short on time and not able to include something that you want us to know about? 
+		 - more security
+		 - more complex handling condition
+		 - more connection validation
+		 - more connection establish
+	 - this technical challenge is interesting to me. i have learn more about websocket from this test
